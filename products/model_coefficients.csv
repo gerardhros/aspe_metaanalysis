@@ -1,0 +1,151 @@
+model;parameter;cat;coefficient
+logNH3;fertilizer type;AN;-2,84467789801815
+logNH3;fertilizer type;ANC;-2,3672614251123
+logNH3;fertilizer type;AS;-2,26271864534708
+logNH3;fertilizer type;ASC;-1,44066106555178
+logNH3;fertilizer type;ASN;-2,21181029119598
+logNH3;fertilizer type;DAP-MAP;-2,09789816099728
+logNH3;fertilizer type;MF;-1,43787328378773
+logNH3;fertilizer type;O;-1,70805996075272
+logNH3;fertilizer type;U;-1,64110889926208
+logNH3;fertilizer type;UC;-2,36260355992761
+logNH3;crop type;fallow;0,964248181287775
+logNH3;crop type;grass;0,269281051973477
+logNH3;crop type;non-cereal;0,525767288575389
+logNH3;application mode;broadcast;0,647700566843822
+logNH3;application mode;combi;0,42196976023424
+logNH3;application mode;incorporated;0,344788540644672
+logNH3;application mode;irrigation;0,207640117021254
+logNH3;application mode;unknown;0,29108657347945
+logNH3;soil pH;ph;0,04782879208177
+logNH3;soil pH;I(ph^2);-0,127358922954174
+logNH3;clay content;clay;0,0950625222311342
+logNH3;precipitation;prec;-0,350457029712129
+logNH3;temperature;temp;0,708343625320266
+logNH3;measurement method;D;-0,837850949474053
+logNH3;measurement method;M;-1,03257436992136
+logNH3;measurement method;O;-3,47832689255012
+logNH3;measurement method;S;-1,2064724218179
+logNH3;measurement method;unknown;-1,78589840195207
+logNH3;number of doses;2;-0,291675581195244
+logNH3;number of doses;3;-0,0368163638091114
+logNH3;number of doses;4;0,834678113825615
+logNH3;number of doses;5;-1,23755436010571
+logNH3;climate zone;H;-0,621887201463616
+logNH3;climate zone;I;-0,402496430126432
+logNH3;climate zone;J;-0,140925821513949
+logNH3;climate zone;K;-0,897032284245516
+logNH3;climate zone;L;-1,32925850456142
+logNH3;climate zone;M;-1,07988566594648
+logNH3;climate zone;N;-0,496902040099235
+logNH3;climate zone;O;-0,876118540282619
+logNH3;climate zone;Q;-2,87189160634619
+logNH3;climate zone;R;-1,74526825401367
+logNH3;interactions;ph:I(ndose^2);0,0883281017794998
+logNH3;intercept;(Intercept);0,516057819562013
+logN2O;fertilizer type;AN;-5,26568768332196
+logN2O;fertilizer type;ANC;-7,58305722192691
+logN2O;fertilizer type;AS;-5,55177189414651
+logN2O;fertilizer type;ASC;-6,88793365488443
+logN2O;fertilizer type;ASN;-4,89527273329918
+logN2O;fertilizer type;ASNC;-5,59257682823531
+logN2O;fertilizer type;DAP-MAP;-6,28654519361462
+logN2O;fertilizer type;MF;-6,27417844020503
+logN2O;fertilizer type;O;-5,40112775076776
+logN2O;fertilizer type;U;-5,21740038099893
+logN2O;fertilizer type;UC;-6,20198041806631
+logN2O;crop type;fallow;0,063259214841751
+logN2O;crop type;grass;0,157269726444168
+logN2O;crop type;non-cereal;0,228894680888412
+logN2O;application mode;broadcast;-0,0613867087438068
+logN2O;application mode;combi;-1,20961442004065
+logN2O;application mode;incorporated;0,151406715503084
+logN2O;application mode;irrigation;0,519728113871438
+logN2O;application mode;unknown;-0,272146983276276
+logN2O;soil pH;ph;-0,336392978572242
+logN2O;soil pH;I(ph^2);0,0237617703012936
+logN2O;temperature;temp;-0,0680347136945989
+logN2O;temperature;I(temp^2);-0,0494869137679886
+logN2O;precipitation;prec;0,0509978682296646
+logN2O;N dose;ndose;0,211573458553955
+logN2O;N dose;I(ndose^2);-0,0153703849278666
+logN2O;number of doses;2;-0,0981431774824853
+logN2O;number of doses;3;-0,410941391879801
+logN2O;number of doses;4;-0,318273091368731
+logN2O;intercept;(Intercept);-0,126805234599076
+logN2O;random climate and pH type;E-water;0,215811182626701
+logN2O;random climate and pH type;F-water;-0,126805234599076
+logN2O;random climate and pH type;G-cacl2;0,00874978928855978
+logN2O;random climate and pH type;G-water;0,35974185281927
+logN2O;random climate and pH type;H-cacl2;-0,0517092644227719
+logN2O;random climate and pH type;H-water;-0,0699031399013712
+logN2O;random climate and pH type;I-water;-0,00397856491250818
+logN2O;random climate and pH type;J-cacl2;-0,93467158618673
+logN2O;random climate and pH type;J-water;-0,127311363154528
+logN2O;random climate and pH type;K-water;-0,103851371437964
+logN2O;random climate and pH type;L-water;0,0661521685425111
+logN2O;random climate and pH type;M-cacl2;0,100140581706291
+logN2O;random climate and pH type;M-water;1,02173913923493
+logN2O;random climate and pH type;N-water;0,0884625322232636
+logN2O;random climate and pH type;P-water;0,980149460795288
+logN2O;random climate and pH type;Q-water;-1,50293966897755
+logN2O;random climate and pH type;R-water;0,134629206976723
+logNO;fertilizer type;AN;-3,67185697978422
+logNO;fertilizer type;ANC;-3,83907899170678
+logNO;fertilizer type;AS;-4,25337988977483
+logNO;fertilizer type;ASC;-4,52789514634375
+logNO;fertilizer type;ASN;-3,28111521309371
+logNO;fertilizer type;ASNC;-5,14334762716273
+logNO;fertilizer type;MF;-3,73675687079591
+logNO;fertilizer type;O;-3,9479579397587
+logNO;fertilizer type;U;-3,77474525208404
+logNO;fertilizer type;UC;-4,56855460856577
+logNO;crop type;grass;2,83729515618657
+logNO;crop type;non-cereal;2,70762864690267
+logNO;application mode;irrigation;-2,40744635154101
+logNO;application mode;unknown;-2,97236266837089
+logNO;soil pH;ph;-0,178275910733274
+logNO;soil pH;I(ph^2);0,0564280637638125
+logNO;temperature;temp;-0,442822209698402
+logNO;temperature;I(temp^2);-0,565155744421381
+logNO;precipitation;prec;0,0410980583993832
+logNO;soil organic carbon content;soc;-0,0197703685190655
+logNO;clay content;clay;0,0222432292389916
+logNO;N dose;ndose;0,141200969679753
+logNO;N dose;I(ndose^2);0,0229438978358268
+logNO;number of doses;1;-0,383936933383871
+logNO;number of doses;3;3,84968284016331
+logNO;intercept;(Intercept);0,366226494023531
+logNO;random climate and pH type;G-kcl;0,0632785883574346
+logNO;random climate and pH type;G-water;0,366226494023531
+logNO;random climate and pH type;H-water;-0,984321565207162
+logNO;random climate and pH type;J-kcl;0,803214709054721
+logNO;random climate and pH type;J-water;-2,52189160539162
+logNO;random climate and pH type;K-water;-1,48267107510832
+logNO;random climate and pH type;M-cacl2;1,64825014974688
+logNO;random climate and pH type;M-water;1,10589474811923
+logNO;random climate and pH type;N-water;-0,0604493343000469
+logNO;random climate and pH type;Q-water;0,261560106123904
+logNO;random climate and pH type;R-water;0,893086507823315
+logNO3;fertilizer type;AN;-0,565514007735555
+logNO3;fertilizer type;AS;-1,65578468566264
+logNO3;fertilizer type;O;0,591592778561739
+logNO3;fertilizer type;U;-1,3243799059175
+logNO3;fertilizer type;UC;-0,494234158117622
+logNO3;N dose;ndose;0,108092424854532
+logNO3;N dose;I(ndose^2);-0,0753928446561779
+logNO3;soil organic carbon content;soc;0,394420352698499
+logNO3;precipitation;prec;2,96312872359876
+logNO3;temperature;temp;-0,334117829918083
+logNO3;temperature;I(temp^2);0,254031963962077
+logNO3;precipitation;I(prec^2);0,317673347802878
+logNO3;crop type;grass;-2,11169433367557
+logNO3;crop type;non-cereal;-0,968665324981256
+logNO3;number of doses;2;1,64285829020217
+logNO3;number of doses;3;-1,42223700522613
+logNO3;intercept;(Intercept);0,123070088721036
+logNO3;random climate and pH type;G;-0,684217714505717
+logNO3;random climate and pH type;H;0,123070088721036
+logNO3;random climate and pH type;K;0,345971482074821
+logNO3;random climate and pH type;N;0,207422918562626
+logNO3;random climate and pH type;Q;0,00775322514723698
